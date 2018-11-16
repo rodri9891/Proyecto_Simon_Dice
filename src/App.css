@@ -2,21 +2,24 @@
   text-align: center; 
 }
 
-.CNV1{
+canvas.activo{
+  background-color: black !important;
+}
+.rojo{
   background-color: red; 
   border: 2px solid black;
 }
 
-.CNV2{
+.blanco{
   background-color: white;
   border: 2px solid black;
 }
 
-.CNV3{
+.azul{
   background-color: blue;
   border: 2px solid black;
 }
-.CNV4{
+.verde{
   background-color: green;
   border: 2px solid black; 
 }
