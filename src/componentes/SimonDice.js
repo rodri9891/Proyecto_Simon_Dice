@@ -9,11 +9,11 @@ export default class SimonDice extends React.Component{
 
         return(
             <div>
-                <canvas width="250" height="250" class="CNV1"></canvas>
-                <canvas width="250" height="250" class="CNV2"></canvas>
+                <canvas id="rojo" width="250" height="250" class="CNV1"></canvas>
+                <canvas id="blanco" width="250" height="250" class="CNV2"></canvas>
                 <br></br>
-                <canvas width="250" height="250" class="CNV3"></canvas>
-                <canvas width="250" height="250" class="CNV4"></canvas>
+                <canvas id="azul" width="250" height="250" class="CNV3"></canvas>
+                <canvas id="verde" width="250" height="250" class="CNV4"></canvas>
             </div>
         );
     }
